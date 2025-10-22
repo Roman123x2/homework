@@ -1,0 +1,557 @@
+.container .hero-block-box {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.container .hero-block .text {
+    margin-top: 14px;
+}
+
+
+
+.container .hero-block .text .title {
+    margin-bottom: 53px;
+    position: relative;
+}
+
+/* position  elements*/
+.underline {
+    position: absolute;
+    left: 57px;
+    top: 215px;
+}
+
+.illustration {
+    position: absolute;
+    top: -14px;
+    right: 13px;
+}
+
+.container .hero-block .text .title h1 {
+    font-weight: 800;
+    font-size: 68px;
+    line-height: 100%;
+    color: rgba(255, 255, 255, 1);
+}
+
+.container .hero-block .text .info {
+    margin-bottom: 64px;
+}
+
+.container .hero-block .text .info p {
+    color: rgba(255, 255, 255, 1);
+    font-family: Manrope;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.container .hero-block .actions input {
+    border: none;
+    font-family: Manrope;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 18px;
+    padding: 18px 170px 18px 14px;
+    border-radius: 18px;
+    max-width: 317px;
+
+}
+
+.container .hero-block .actions .arrow-right {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+}
+
+.container .hero-block .actions button {
+    background: rgba(245, 250, 147, 1);
+    color: rgba(0, 0, 0, 1);
+    font-family: Manrope;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 18px;
+    padding: 18px 14px;
+    border-radius: 18px;
+    border: none;
+    margin-left: 24px;
+}
+
+.container .features {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    margin: 80px auto;
+}
+
+
+.container .features .features-card {
+    max-width: 317px;
+    width: 100%;
+    height: 398px;
+    border: 1px solid rgba(245, 250, 147, 1);
+    border-radius: 32px;
+    text-align: center;
+    position: relative;
+}
+
+.container .features .features-card {
+    text-align: start;
+}
+
+.container .features .features-card .features-card-img {
+    display: flex;
+    max-width: 253px;
+    width: 100%;
+    height: 80px;
+    margin: 32px 32px 24px;
+}
+
+.container .features .features-card .features-card-img.mid {
+    justify-content: center;
+}
+
+.container .features .features-card .features-card-img.right {
+    justify-content: flex-end;
+}
+
+.container .features .features-card h2 {
+    font-family: Manrope;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 54px;
+    color: rgba(255, 255, 255, 1);
+    margin: 24px 32px 0 32px;
+}
+
+.container .features .features-card p {
+    font-family: Manrope;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    color: rgba(255, 255, 255, 1);
+    margin: 18px 32px 58px 32px;
+    text-align: left;
+}
+
+
+.container .screens {
+    position: relative;
+}
+
+.container .screens .image {
+    display: flex;
+    gap: 156px;
+}
+
+.container .screens .image .company-list {
+    max-width: 545px;
+    width: 100%;
+    height: 324px;
+    border: 0.75px solid rgba(51, 51, 51, 1);
+    border-radius: 24px;
+    margin: 106px 0 0 50px;
+}
+
+.container .screens .image .company-list .title {
+    font-family: Manrope;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 20px;
+    text-align: start;
+    color: rgba(170, 219, 107, 1);
+    margin: 18px 0 23px 18px;
+}
+
+.container .screens .image .company-list .info {
+    margin: 21px 0 0 18px;
+}
+
+.container .screens .image .company-list .info .name p {
+    font-family: Manrope;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.container .screens .image .company-list .info .name p span {
+    font-family: Manrope;
+    font-weight: 500;
+    font-size: 13.5px;
+    line-height: 20px;
+    color: rgba(118, 117, 123, 1);
+}
+
+.container .screens .image .company-list .info .link a {
+    font-family: Manrope;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    text-decoration: underline;
+    text-decoration-style: solid;
+    color: rgba(118, 117, 123, 1);
+    margin-top: 1.5px;
+}
+
+.container .screens .image .company-list .info .post {
+    font-family: Manrope;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: rgba(255, 255, 255, 1);
+    margin-top: 6px;
+}
+
+
+
+
+.container .screens .image .card {
+    max-width: 220px;
+    width: 100%;
+    height: 430px;
+    background: rgba(255, 175, 176, 1);
+    border-radius: 21px;
+    margin-right: 50px;
+}
+
+.container .screens .image .card .img {
+    padding: 20px 21px 15px 21px;
+}
+
+.container .screens .image .card .title {
+    font-family: Manrope;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 36px;
+    color: rgba(0, 0, 0, 1);
+    margin: 0 21px 12px;
+}
+
+.container .screens .image .card .text {
+    font-family: Manrope;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 17px;
+    color: rgba(0, 0, 0, 1);
+    margin: 12px 21px 0;
+}
+
+.container .screens .image .card .button {
+    max-width: 118px;
+    width: 100%;
+    height: 40px;
+    border-radius: 12px;
+    border: 0.66px solid rgba(51, 51, 51, 1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 0 0 80px;
+
+}
+
+.container .screens .image .card .button a {
+    text-decoration: none;
+
+    font-family: Manrope;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 100%;
+    text-align: center;
+    color: rgba(0, 0, 0, 1);
+    margin-left: 12px;
+}
+
+.container .screens .image .card .button .button-img {
+    margin: 12px 10px 6px 10px;
+}
+
+
+
+
+
+.container .screens .block {
+    margin-top: 32px;
+    border: 1px solid rgba(51, 51, 51, 1);
+    border-radius: 32px;
+}
+
+.container .screens .block .text p {
+    font-family: Manrope;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: rgba(255, 255, 255, 1);
+    margin: 24px 24px;
+}
+
+.container .screens .block .link {
+    padding-top: 32px;
+    display: flex;
+    justify-content: flex-end;
+    padding: 32px 24px 24px;
+}
+
+.container .screens .block .link a {
+    font-family: Manrope;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 100%;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    text-decoration: none;
+    cursor: pointer;
+    border: 1px solid rgba(51, 51, 51, 1);
+    border-radius: 18px;
+    padding: 18px 14px;
+}
+
+
+
+.container .price {
+    margin-top: 80px;
+}
+
+.container .price .title {
+    font-family: Manrope;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 26px;
+    color: rgba(245, 250, 147, 1);
+    margin-left: 24px;
+}
+
+.container .price .boxs {
+    margin-top: 32px;
+    display: flex;
+    gap: 32px;
+    position: relative;
+}
+
+
+.container .price .boxs .pat {
+    background: rgba(245, 250, 147, 1);
+    border-radius: 32px;
+    padding-bottom: 32px;
+    width: 100%;
+}
+
+.container .price .boxs .pat .name {
+    font-family: Manrope;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 26px;
+    color: rgba(0, 0, 0, 1);
+    padding: 32px 32px 18px;
+}
+
+.container .price .boxs .pat .cost {
+    font-family: Manrope;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0px;
+    color: rgba(0, 0, 0, 1);
+    padding: 18px 32px;
+}
+
+.container .price .boxs .pat .cost span {
+    font-weight: 800;
+    font-size: 68px;
+    line-height: 110%;
+}
+
+.container .price .boxs .pat .text {
+    font-family: Manrope;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 24px;
+    color: rgba(0, 0, 0, 1);
+    padding: 18px 32px 0;
+}
+
+.container .price .boxs .pat .list {
+    font-family: Manrope;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 24px;
+    padding: 18px 32px 0 32px;
+}
+
+.container .price .boxs .pat .list ul {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.container .price .boxs .pat .list li {
+    list-style-type: none;
+}
+
+.container .price .boxs .pat .list li::before {
+    content: url(./icons/befoo.svg);
+    margin-right: 10px;
+}
+
+.container .price .boxs .pat .button {
+    border: 1px solid rgba(51, 51, 51, 1);
+    background: rgba(0, 0, 0, 1);
+    border-radius: 18px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 200px;
+    width: 100%;
+    height: 61px;
+    margin: 24px 32px 32px 32px;
+}
+
+.container .price .boxs .pat .button.p-50 {
+    margin: 56px 0 0 32px;
+}
+
+
+.container .price .boxs .pat .button a {
+    color: rgba(255, 255, 255, 1);
+    text-decoration: none;
+    font-family: Manrope;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 100%;
+    text-align: center;
+    padding: 18px 14px;
+}
+
+
+.positoion-box {
+    position: absolute;
+    border: 1px solid rgba(51, 51, 51, 1);
+    border-radius: 18px;
+    background: rgba(0, 0, 0, 1);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: -24px;
+    right: 32px;
+}
+
+.positoion-box p {
+    font-family: Manrope;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 100%;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    padding: 16px 13px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container .screens .profile {
+    max-width: 658px;
+    width: 100%;
+    height: 241px;
+    display: flex;
+    gap: 69px;
+    border: 2px solid rgba(51, 51, 51, 1);
+    border-radius: 24px;
+    background: rgba(20, 14, 23, 1);
+
+    position: absolute;
+    top: 75px;
+    left: 171px;
+}
+
+
+
+.container .screens .profile .profile-box {
+    display: flex;
+    gap: 69px;
+    margin: 30px 72px;
+}
+
+.container .screens .profile .profile-box .profile-title .profile-title-h {
+    font-family: Manrope;
+    font-weight: 800;
+    font-size: 31px;
+    line-height: 110%;
+    color: rgba(255, 255, 255, 1);
+    margin-top: 28px;
+}
+
+
+.container .screens .profile .profile-box .profile-title .profile-title-text {
+    font-family: Manrope;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 13px;
+    color: rgba(255, 255, 255, 1);
+    margin-top: 10px;
+}
+
+
+.container .screens .profile .profile-box .profile-title .profile-title-a {
+    max-width: 106px;
+    width: 100%;
+    height: 28px;
+    border-radius: 8px;
+    background: rgba(249, 214, 158, 1);
+    margin-top: 30px;
+    cursor: pointer;
+
+    display: flex;
+    gap: 4px;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container .screens .profile .profile-box .profile-title .profile-title-a .link {
+    max-width: 78px;
+    width: 100%;
+    text-align: center;
+    margin: 0 0 5px 7px;
+}
+
+.container .screens .profile .profile-box .profile-title .profile-title-a .link a {
+    text-decoration: none;
+    font-family: Manrope;
+    font-weight: 600;
+    font-size: 8px;
+    line-height: 8px;
+    color: rgba(0, 0, 0, 1);
+}
+
+.container .screens .profile .profile-box .profile-title .profile-title-a .link-img {
+    margin-right: 7px;
+}
