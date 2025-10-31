@@ -1,0 +1,529 @@
+.container .hero-block-box {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.container .hero-block .text {
+    margin-top: 14px;
+}
+
+
+
+.container .hero-block .text .title {
+    margin-bottom: 53px;
+    position: relative;
+}
+
+/* position  elements*/
+.underline {
+    position: absolute;
+    left: 57px;
+    top: 215px;
+}
+
+.illustration {
+    position: absolute;
+    top: -14px;
+    right: 13px;
+}
+
+.container .hero-block .text .title h1 {
+    font-weight: 800;
+    font-size: 68px;
+    line-height: 100%;
+    color: rgba(255, 255, 255, 1);
+}
+
+.container .hero-block .text .info {
+    margin-bottom: 64px;
+}
+
+.container .hero-block .text .info p {
+    color: rgba(255, 255, 255, 1);
+    font-family: Manrope;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.container .hero-block .actions input {
+    border: none;
+    font-family: Manrope;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 18px;
+    padding: 18px 170px 18px 14px;
+    border-radius: 18px;
+    max-width: 317px;
+
+}
+
+.container .hero-block .actions .arrow-right {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+}
+
+.container .hero-block .actions button {
+    background: rgba(245, 250, 147, 1);
+    color: rgba(0, 0, 0, 1);
+    font-family: Manrope;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 18px;
+    padding: 18px 14px;
+    border-radius: 18px;
+    border: none;
+    margin-left: 24px;
+}
+
+/* .container .features */
+
+.container .features {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    margin: 80px auto;
+}
+
+.container .features {
+
+    max-width: 1000px;
+    width: 100%;
+    display: flex;
+    gap: 24px;
+}
+
+.container .features .features-card {
+    border: 1px solid #F5FA93;
+    border-radius: 32px;
+
+}
+
+.container .features .features-card_box {
+    padding: 32px;
+    max-width: 318px;
+}
+
+.container .features .features-card-img {
+    display: flex;
+    margin-bottom: 24px;
+}
+
+.mid {
+    justify-content: center;
+}
+
+.right {
+    justify-content: end;
+}
+
+
+.container .features .features-card-title {
+    margin-bottom: 18px;
+}
+
+.container .features .features-card-title h2 {
+    font-family: Manrope;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 54px;
+    color: #FFFFFF;
+}
+
+.container .features .features-card-text {
+    font-family: Manrope;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    color: #FFFFFF;
+
+}
+
+/* .container .screens  */
+
+.container .screens {
+    position: relative;
+}
+
+.container .screens .image {
+    display: flex;
+    gap: 156px;
+    margin-bottom: 32px;
+}
+
+.container .screens .image .company-list {
+    max-width: 545px;
+    width: 100%;
+    border: 0.75px solid rgba(51, 51, 51, 1);
+    border-radius: 24px;
+    margin: 106px 0 0 50px;
+}
+
+.container .screens .image .company-list .title {
+    font-family: Manrope;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 20px;
+    text-align: start;
+    color: rgba(170, 219, 107, 1);
+    margin: 18px 0 23px 18px;
+}
+
+.container .screens .image .company-list .info {
+    margin: 21px 0 0 18px;
+}
+
+.container .screens .image .company-list .info .name p {
+    font-family: Manrope;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.container .screens .image .company-list .info .name p span {
+    font-family: Manrope;
+    font-weight: 500;
+    font-size: 13.5px;
+    line-height: 20px;
+    color: rgba(118, 117, 123, 1);
+}
+
+.container .screens .image .company-list .info .link a {
+    font-family: Manrope;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    text-decoration: underline;
+    text-decoration-style: solid;
+    color: rgba(118, 117, 123, 1);
+    margin-top: 1.5px;
+}
+
+.container .screens .image .company-list .info .post {
+    font-family: Manrope;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: rgba(255, 255, 255, 1);
+    margin-top: 6px;
+}
+
+
+
+
+.container .screens .image .card {
+    max-width: 220px;
+    width: 100%;
+    background: rgba(255, 175, 176, 1);
+    border-radius: 21px;
+    margin-right: 50px;
+}
+
+.container .screens .image .card .img {
+    padding: 20px 21px 15px 21px;
+}
+
+.container .screens .image .card .title {
+    font-family: Manrope;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 36px;
+    color: rgba(0, 0, 0, 1);
+    margin: 0 21px 12px;
+}
+
+.container .screens .image .card .text {
+    font-family: Manrope;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 17px;
+    color: rgba(0, 0, 0, 1);
+    margin: 12px 21px 0;
+}
+
+.container .screens .image .card .button {
+    max-width: 118px;
+    width: 100%;
+    border-radius: 12px;
+    border: 0.66px solid rgba(51, 51, 51, 1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 0 0 80px;
+
+}
+
+.container .screens .image .card .button a {
+    text-decoration: none;
+
+    font-family: Manrope;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 100%;
+    text-align: center;
+    color: rgba(0, 0, 0, 1);
+    margin-left: 12px;
+}
+
+.container .screens .image .card .button .button-img {
+    margin: 12px 10px 6px 10px;
+}
+
+
+
+
+
+.container .screens .block {
+    border: 1px solid rgba(51, 51, 51, 1);
+    border-radius: 32px;
+
+}
+
+.container .screens .block .block-box {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    padding: 24px;
+}
+
+
+.container .screens .block .text p {
+    font-family: Manrope;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.container .screens .block .link {
+    align-self: flex-end;
+}
+
+.container .screens .block .link .link-box {
+    padding: 18px 14px;
+    border: 1px solid rgba(51, 51, 51, 1);
+    border-radius: 18px;
+    max-width: 246px;
+}
+
+.container .screens .block .link a {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 100%;
+    color: rgba(255, 255, 255, 1);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+
+.container .screens .profile {
+    max-width: 658px;
+    width: 100%;
+    display: flex;
+    gap: 69px;
+    border: 1px solid rgba(51, 51, 51, 1);
+    border-radius: 24px;
+    background: rgba(20, 14, 23, 1);
+
+    position: absolute;
+    top: 75px;
+    left: 171px;
+}
+
+
+
+.container .screens .profile .profile-box {
+    display: flex;
+    gap: 69px;
+    margin: 30px 72px;
+}
+
+.container .screens .profile .profile-box .profile-title .profile-title-h {
+    font-family: Manrope;
+    font-weight: 800;
+    font-size: 31px;
+    line-height: 110%;
+    color: rgba(255, 255, 255, 1);
+    margin-top: 28px;
+}
+
+
+.container .screens .profile .profile-box .profile-title .profile-title-text {
+    font-family: Manrope;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 13px;
+    color: rgba(255, 255, 255, 1);
+    margin-top: 10px;
+}
+
+
+.container .screens .profile .profile-box .profile-title .profile-title-a {
+    max-width: 106px;
+    width: 100%;
+    border-radius: 8px;
+    background: rgba(249, 214, 158, 1);
+    margin-top: 30px;
+    cursor: pointer;
+
+    display: flex;
+    gap: 4px;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container .screens .profile .profile-box .profile-title .profile-title-a .link {
+    max-width: 78px;
+    width: 100%;
+    text-align: center;
+    margin: 0 0 5px 7px;
+}
+
+.container .screens .profile .profile-box .profile-title .profile-title-a .link a {
+    text-decoration: none;
+    font-family: Manrope;
+    font-weight: 600;
+    font-size: 8px;
+    line-height: 8px;
+    color: rgba(0, 0, 0, 1);
+}
+
+.container .screens .profile .profile-box .profile-title .profile-title-a .link-img {
+    margin-right: 7px;
+}
+
+
+/* .container .price  */
+
+.container .price .title {
+    margin-bottom: 32px;
+}
+
+.container .price .title h3 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 26px;
+    color: rgba(245, 250, 147, 1);
+    padding-left: 24px;
+}
+
+.container .price .boxs {
+    display: flex;
+    gap: 32px;
+}
+
+.container .price .boxs .pat {
+    width: 100%;
+    color: rgba(0, 0, 0, 1);
+    background: rgba(245, 250, 147, 1);
+    border-radius: 32px;
+}
+
+.container .price .boxs .pat.positoion {
+    position: relative;
+}
+
+.container .price .boxs .pat .pat-box {
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.container .price .boxs .pat .pat-box .name h3 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 26px;
+}
+
+.container .price .boxs .pat .pat-box .cost p {
+    font-family: Manrope;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.container .price .boxs .pat .pat-box .cost span {
+    font-weight: 800;
+    font-size: 68px;
+    line-height: 110%;
+}
+
+.container .price .boxs .pat .pat-box .text p {
+    font-family: Manrope;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 24px;
+    vertical-align: middle;
+}
+
+.container .price .boxs .pat .pat-box .list ul {
+    list-style: none;
+}
+
+.container .price .boxs .pat .pat-box .list li {
+    display: flex;
+    gap: 4px;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 24px;
+}
+
+.container .price .boxs .pat .list li::before {
+    content: url(./icons/befoo2.svg);
+}
+
+.container .price .boxs .pat .button {
+    border-radius: 32px;
+}
+
+.container .price .boxs .pat .button.pt-10 {
+    padding-top: 10px;
+}
+
+.container .price .boxs .pat .button .button-box {
+    background: rgba(0, 0, 0, 1);
+    border-radius: 18px;
+    max-width: 200px;
+    padding: 18px 14px;
+    text-align: center;
+}
+
+.container .price .boxs .pat .button a {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 100%;
+    color: rgba(255, 255, 255, 1);
+    text-decoration: none;
+}
+
+.container .price .boxs .pat .pat-box .positoion-box {
+    position: absolute;
+    top: -25px;
+    right: 32px;
+}
+
+.container .price .boxs .pat .pat-box .positoion-box .positoion-box-frame {
+    border: 1px solid rgba(51, 51, 51, 1);
+    border-radius: 18px;
+    background: rgba(0, 0, 0, 1);
+    max-width: 145px;
+    padding: 16px 14px;
+}
+
+.container .price .boxs .pat .pat-box .positoion-box .positoion-box-frame p {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 100%;
+    color: rgba(255, 255, 255, 1);
+
+}
+
+.mb-36 {
+    margin-bottom: 38px;
+}
